@@ -1,0 +1,11 @@
+<template name="codebars">
+  <div id="printable">
+    <dir class="row">
+      {{#each codebars}}
+      <div class="col-sm-2">
+        {{>codebar code=this}}
+      </div>
+      {{/each}}
+    </dir>
+  </div>
+</template>
